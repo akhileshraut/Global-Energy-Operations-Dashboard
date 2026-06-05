@@ -4,11 +4,11 @@
 ### DIM_Sites
 SiteID	SiteName	Region	Country	SiteType	Capacity_BPD	Latitude	Longitude
 
-** FACT_Operations
+### FACT_Operations
 Date	SiteID	Production_Barrels	OilPrice_USD	Revenue_USD	Downtime_Hours	Safety_Incidents	Energy_Consumption_MWh	CO2_Emissions_Tons
 
-**FACT_Maintenance
+### FACT_Maintenance
 MaintenanceID	SiteID	MaintenanceMonth	PlannedMaintenanceHours	MaintenanceCost_USD	TechniciansAssigned
 
-**KPI_MonthlySummary
+### KPI_MonthlySummary
 Production_Target_Barrels	Revenue_Target_USD	Downtime_Target_Hours	Safety_Incident_Target	CO2_Emissions_Target_Tons	Production_vs_Target_Pct	Revenue_vs_Target_Pct	Downtime_vs_Target_Pct	CO2_vs_Target_Pct	Safety_vs_Target_Pct	Safety_Target_Status
