@@ -1,10 +1,10 @@
 # Global-Energy-Operations-Dashboard
 
 
-###DIM_Sites
+### DIM_Sites
 SiteID	SiteName	Region	Country	SiteType	Capacity_BPD	Latitude	Longitude
 
-**FACT_Operations
+** FACT_Operations
 Date	SiteID	Production_Barrels	OilPrice_USD	Revenue_USD	Downtime_Hours	Safety_Incidents	Energy_Consumption_MWh	CO2_Emissions_Tons
 
 **FACT_Maintenance
